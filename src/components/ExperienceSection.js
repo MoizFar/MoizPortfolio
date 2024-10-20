@@ -31,29 +31,7 @@ function ExperienceSection() {
                     </ul>
                     </div>
                 </div>
-                <div class="experience-card">
-                    <div class="experience-banner">
-                        <div class="experience-blurred_div">
-                        </div>
-                            <div class="experience-div-company">
-                                <h5 class="experience-text-company">ITSTHS</h5>
-                            </div>
-                                  {/* <img crossorigin="anonymous" class="experience-roundedimg" src={require("../assets/images/black_image.jpg")} alt="Facebook"></img> */}
-                    </div>
-                                        <div class="experience-text-details">
-                                            <h5 class="experience-text-role">Software Engineer (Part-time)</h5>
-                                            <h5 class="experience-text-date">November 2023 – Present</h5>
-                                            {/* <p class="subTitle experience-text-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> */}
-                                            <ul>
-                    <li class="subTitle">Worked on ERP, CRM, SaaS, portfolio, eCommerce, tourism, and management systems.</li>
-                    {/* <li class="subTitle">Implemented 3rd party applications.</li>
-                    <li class="subTitle">Utilized PHP, Laravel, CodeIgniter, Bootstrap, Git, React JS, MySQL, and jQuery.</li>
-                    <li class="subTitle">Integrated payment gateways like Stripe.</li> */}
-                    <li class="subTitle">Coordinated with team members to develop and deliver solutions on time.</li>
-                    <li class="subTitle">Mentored junior developers.</li>
-                    </ul>
-                                        </div>
-                </div>
+               
                 <div class="experience-card">
                     <div class="experience-banner">
                         <div class="experience-blurred_div">
