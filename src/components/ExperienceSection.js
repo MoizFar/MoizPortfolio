@@ -22,12 +22,21 @@ function ExperienceSection() {
                     <h5 class="experience-text-role">Software Engineer</h5>
                     <h5 class="experience-text-date">November 2021 – Present</h5>
                     <ul>
-                    <li class="subTitle">Worked on ERP, CRM, SaaS, portfolio, eCommerce, tourism, and management systems.</li>
+
+                    <li class="subTitle">Developed and maintained SaaS, e-commerce platforms and web solutions, improving system efficiency by 20%.</li>
+                    <li class="subTitle">Collaborated with cross-functional teams to deliver 10+ projects on time.</li>
+                    <li class="subTitle">Designed efficient database schemas, supporting business processes and ensuring optimal performance.</li>
+                    <li class="subTitle">•Mentored junior developers, fostering a culture of code quality and collaboration.</li>
+                    <li class="subTitle">Streamlined existing CRM systems, reducing customer response time by 15%</li>
+                    <li class="subTitle">Wrote clean, reusable code, enhancing maintainability and scalability.</li>
+
+
+                    {/* <li class="subTitle">Worked on ERP, CRM, SaaS, portfolio, eCommerce, tourism, and management systems.</li> */}
                     {/* <li class="subTitle">Implemented 3rd party applications.</li> */}
                     {/* <li class="subTitle">Utilized PHP, Laravel, CodeIgniter, Bootstrap, Git, React JS, MySQL, and jQuery.</li> */}
                     {/* <li class="subTitle">Integrated payment gateways like Stripe.</li> */}
-                    <li class="subTitle">Coordinated with team members to develop and deliver solutions on time.</li>
-                    <li class="subTitle">Mentored junior developers.</li>
+                    {/* <li class="subTitle">Coordinated with team members to develop and deliver solutions on time.</li> */}
+                    {/* <li class="subTitle">Mentored junior developers.</li> */}
                     </ul>
                     </div>
                 </div>
@@ -46,8 +55,11 @@ function ExperienceSection() {
                                             <h5 class="experience-text-date">August 2021 – October 2021</h5>
                                             {/* <p class="subTitle experience-text-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> */}
                                             <ul>
-                                                <li class="subTitle">Enhanced user experience with various integrations and adherence to coding standards.</li>
-                                                <li class="subTitle">Developed maintainable and extensible code in a collaborative team environment.</li>
+
+                                            <li class="subTitle">Participated in design discussions and pre-sprint planning exercises.</li>
+
+                                                {/* <li class="subTitle">Enhanced user experience with various integrations and adherence to coding standards.</li> */}
+                                                {/* <li class="subTitle">Developed maintainable and extensible code in a collaborative team environment.</li> */}
                                             </ul>
                                         </div>
                 </div>
