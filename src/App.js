@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import trackPageView from "./analytics";
 import logo from './logo.svg';
 import { Link } from 'react-scroll';
 import ScrollToTopButton from './components/ScrollToTopButton';
@@ -20,10 +21,17 @@ function App() {
   const [isNightMode, setIsNightMode] = useState(false);
   const [showImage, setShowImage] = useState(true);
 
+
+
   const toggleMode = () => {
     setIsNightMode(!isNightMode);
   };
 
+  useEffect(() => {
+    trackPageView();
+  }, []);
+ 
+   // Handle image visibility timer
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowImage(false);
