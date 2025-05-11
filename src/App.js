@@ -104,9 +104,9 @@ function App() {
       
       
       
-      <div id="experience">
+      {/* <div id="experience">
         <ExperienceSection />
-      </div>
+      </div> */}
       <div id="projects">
         <ProjectsSection />
       </div>
