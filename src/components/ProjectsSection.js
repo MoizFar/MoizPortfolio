@@ -8,16 +8,16 @@ import landingPerson from '../assets/lottie/landingPerson.json';
 function ProjectsSection() {
     return (
       <div className="projects-section">
-        <h2 className="skills-heading">Big Projects</h2>
-          <p className="subTitle project-subtitle">SOME PROJECTS THAT I HAVE DEVELOPED</p>
+      <h2 className="skills-heading">Big Projects</h2>
+      <p className="subTitle project-subtitle">SOME PROJECTS THAT I HAVE DEVELOPED</p>
       <div className="projects-container">
-
+        
           <div className="project-card project-card-light">
             <div className="project-image">
               <img 
               alt="ATCS – Aviation Tool Compliance System"
-              src={require("../assets/images/hrms_logo.png")}
-              style={{ width: '258px', height: '138px' }}
+              src={require("../assets/images/atcs.png")}
+              style={{ width: '303px', height: '166px' }}
               />
             </div>
             <div className="project-detail">
@@ -31,13 +31,31 @@ function ProjectsSection() {
           <div className="project-card project-card-light">
             <div className="project-image">
               <img 
-              alt="HRM (Human Resource Management System)"
-              src={require("../assets/images/hrms_logo.png")}
-              style={{ width: '258px', height: '138px' }}
+              alt="TicketWave"
+              src={require("../assets/images/ticketwave.png")}
+              style={{ width: '303px', height: '166px' }}
               />
             </div>
             <div className="project-detail">
-              <h5 className="card-title">HRMS - Human Resource Management System</h5>
+              <h5 className="card-title">TicketWave</h5>
+              <p>
+
+          A helpdesk platform with real-time chat, ticket management, Kanban tracking, and automated email updates, enhancing customer support and agent efficiency.
+
+              </p>
+            </div>
+          </div>
+
+          <div className="project-card project-card-light">
+            <div className="project-image">
+              <img 
+              alt="HRM (Human Resource Management System)"
+              src={require("../assets/images/hrms_logo.png")}
+              style={{ width: '303px', height: '166px' }}
+              />
+            </div>
+            <div className="project-detail">
+              <h5 className="card-title">HRMS</h5>
               <p>
               A comprehensive HR management platform with modules for attendance, payroll, recruitment, and performance tracking, integrated with biometric devices for real-time updates.
               </p>
@@ -48,7 +66,7 @@ function ProjectsSection() {
             <div className="project-image">
               <img 
               alt="E-Leasing Platform"
-              src={require("../assets/images/black_image.jpg")}
+              src={require("../assets/images/e-leasing.PNG")}
               style={{ width: '258px', height: '138px' }}
               />
             </div>
@@ -64,8 +82,8 @@ function ProjectsSection() {
             <div className="project-image">
               <img 
               alt="CareerConnect"
-              src={require("../assets/images/black_image.jpg")}
-              style={{ width: '258px', height: '138px' }}
+              src={require("../assets/images/careerconnect.png")}
+              style={{ width: '333px', height: '185px' }}
               />
             </div>
             <div className="project-detail">
@@ -97,7 +115,7 @@ function ProjectsSection() {
               <img 
               alt="Excel Labs Logo"
               src={require("../assets/images/excel-logo.webp")}
-              style={{ width: '258px', height: '100px' }}
+              style={{ width: '258px', height: '119px' }}
               />
             </div>
             <div className="project-detail">
@@ -113,7 +131,7 @@ function ProjectsSection() {
               <img 
               alt="Mind Set"
               src={require("../assets/images/black_image.jpg")}
-              style={{ width: '258px', height: '100px' }}
+              style={{ width: '258px', height: '119px' }}
               />
             </div>
             <div className="project-detail">
@@ -128,7 +146,7 @@ function ProjectsSection() {
             <div className="project-image">
               <img 
               alt="Baladi Express Logo"
-              src={require("../assets/images/black_image.jpg")}
+              src={require("../assets/images/baladi.png")}
               style={{ width: '258px', height: '100px' }}
               />
             </div>
@@ -144,8 +162,8 @@ function ProjectsSection() {
             <div className="project-image">
               <img 
               alt="Sharc Logo"
-              src={require("../assets/images/black_image.jpg")}
-              style={{ width: '258px', height: '100px' }}
+              src={require("../assets/images/sharc-gills-black.png")}
+              style={{ width: '258px', height: '191px' }}
               />
             </div>
             <div className="project-detail">

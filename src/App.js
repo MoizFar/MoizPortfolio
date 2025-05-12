@@ -68,7 +68,7 @@ function App() {
 
           <li><Link className="nav-link" to="home" smooth={true} duration={500}>Introduction</Link></li>
           <li><Link className="nav-link" to="skills" smooth={true} duration={500}>Skills</Link></li>
-          <li><Link className="nav-link" to="experience" smooth={true} duration={500}>Work Experience</Link></li>
+          {/* <li><Link className="nav-link" to="experience" smooth={true} duration={500}>Work Experience</Link></li> */}
           <li><Link className="nav-link" to="projects" smooth={true} duration={500}>Projects</Link></li>
           <li><Link className="nav-link" to="contact" smooth={true} duration={500}>Contact</Link></li>
 
