@@ -10,6 +10,7 @@ import ProjectsSection from './components/ProjectsSection';
 import Skills from './components/Skills';
 import ContactSection from './components/ContactSection';
 import ExperienceSection from './components/ExperienceSection';
+import StatsSection from './components/StatsSection';
 import EducationSection from './components/EducationSection';
 import ProficiencySection from './components/ProficiencySection';
 import OfferSection from './components/OfferSection';
@@ -102,6 +103,10 @@ function App() {
         <EducationSection />
       </div>
       
+
+      <div id="">
+        <StatsSection />
+      </div>
       
       
       {/* <div id="experience">
