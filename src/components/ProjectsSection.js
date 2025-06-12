@@ -27,6 +27,7 @@ function ProjectsSection() {
               </p>
             </div>
           </div>
+          
 
           <div className="project-card project-card-light">
             <div className="project-image">
