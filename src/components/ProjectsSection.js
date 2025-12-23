@@ -15,6 +15,23 @@ function ProjectsSection() {
           <div className="project-card project-card-light">
             <div className="project-image">
               <img 
+              alt="Social Media Screening Project"
+              src={require("../assets/images/social_media.png")}
+              style={{ width: '303px', height: '166px' }}
+              />
+            </div>
+            <div className="project-detail">
+              <h5 className="card-title">Social Media Screening Project</h5>
+              <p>
+                An AI-assisted social media screening platform that analyzes public profiles to assess behavior, cultural fit, and potential risks beyond traditional resumes.
+              </p>
+            </div>
+          </div>
+
+
+          <div className="project-card project-card-light">
+            <div className="project-image">
+              <img 
               alt="ATCS – Aviation Tool Compliance System"
               src={require("../assets/images/atcs.png")}
               style={{ width: '303px', height: '166px' }}
@@ -175,21 +192,7 @@ function ProjectsSection() {
             </div>
           </div>
 
-          <div className="project-card project-card-light">
-            <div className="project-image">
-              <img 
-              alt="IG Tech Logo"
-              src={require("../assets/images/igtech_logo.jpg")}
-              style={{ width: '258px', height: '258px' }}
-              />
-            </div>
-            <div className="project-detail">
-              <h5 className="card-title">IG Tech Services</h5>
-              <p>
-              A CRM system with customer management, analytics dashboard, and Google Maps integration, enhancing usability and sales performance tracking.
-              </p>
-            </div>
-          </div>
+        
 
       </div>
       </div>
