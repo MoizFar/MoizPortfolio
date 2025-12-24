@@ -9,6 +9,20 @@
   pointer-events: none;
 }
 
+.stats-container {
+    display: block;          /* Default: mobile & tablet */
+        gap: 93px;
+
+}
+
+/* Large screens only */
+@media (min-width: 992px) {
+    .stats-container {
+        display: inline-flex;
+        gap: 93px;
+    }
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
