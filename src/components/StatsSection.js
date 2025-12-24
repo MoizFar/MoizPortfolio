@@ -22,7 +22,7 @@ function StatsSection() {
 
 return (
     <div className="stats-section" style={{ fontSize: 'x-large' }}>
-        <div className="stats-container" style={{ display: 'inline-flex', gap: '93px' }}>
+        <div className="stats-container" style={{ gap: '93px' }}>
             <StatItem label="👨‍💻 Year of Experience" targetValue={4} suffix="+" />
             <StatItem label="📁 Projects Completed" targetValue={15} suffix="+" />
             <StatItem label="⏱️ Total Working Hours" targetValue={5000} suffix="+" />
